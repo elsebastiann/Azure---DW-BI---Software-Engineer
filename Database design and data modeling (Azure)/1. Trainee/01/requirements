@@ -1,0 +1,43 @@
+DESCRIPTION
+
+Prepare and execute a SQL statement that will create a table. The table should meet the requirements, for example, requirements represented in an ER diagram.
+
+OUTCOMES
+
+A repository with code.
+
+NEBo Tasks
+
+Implement a relational database using a pre-defined ER diagram
+Implement a relational database based on a pre-defined Entity Relationship (ER) diagram. This task involves identifying the appropriate data type for each column, determining primary and foreign keys, and creating SQL scripts to create the necessary tables and keys. 
+
+To implement a relational database using a pre-defined ER diagram: 
+
+Examine the given ER diagram in the references section, and become familiar with the entities, attributes, and relationships. 
+Choose an appropriate data type for each column based on the data that will be stored in it. 
+Identify the primary keys for each table and create SQL scripts to add the necessary primary key constraints. 
+Identify the foreign keys for each relationship and create SQL scripts to add the necessary foreign key constraints. 
+Create SQL scripts to create the tables and add the constraints to implement the ER diagram. 
+Alternatively, the associate can obtain requirements for the database schema from a mentor or use any other ER diagram. The associate should provide appropriate SQL scripts to create the tables and keys based on the chosen or provided ER diagram. 
+
+Expected effort: 12 hours (not including learning and watching tutorials) 
+
+Pre-requirements: 
+
+Access to RDBMS 
+Acceptance criteria: 
+
+The database should be designed and implemented according to the given requirements. 
+The tables should be created with appropriate data types and primary keys. 
+The relationships between tables should be implemented correctly. 
+The SQL scripts provided by the associate should be clear, well-documented, and error-free. 
+The database should be tested to ensure that it works as expected. 
+
+References and tutorials  
+https://learnsql.com/blog/data-type-creating-table/ 
+
+ER diagram:  
+https://confluence.softserveinc.com/display/SDO/Implement+a+relational+database+using+a+pre-defined+ER+diagram
+
+Learning Resources:
+https://learn.microsoft.com/en-us/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver15
